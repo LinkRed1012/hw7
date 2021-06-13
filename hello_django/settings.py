@@ -140,12 +140,12 @@ LOGGING = {
             'class': 'logging.FileHandler',            
             'filename': './debug.log',        
             },    
-            },    
-            'loggers': {        
-                'django': {            
-                    'handlers': ['file'],            
-                    'level': 'DEBUG',            
-                    'propagate': True,        
-                    },    
-                    },
-                    }
+        },    
+        'loggers': {        
+            'django': {            
+                'handlers': ['file'],            
+                'level': 'DEBUG',            
+                'propagate': True,        
+                },    
+             },
+         }
